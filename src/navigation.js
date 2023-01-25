@@ -50,7 +50,7 @@ function homePage(params) {
 
 function categoriesPage(params) {
     console.log('Categories!!!');
-
+    
     headerSection.classList.remove('header-container--long');
     headerSection.style.background = '';
     arrowBtn.classList.remove('inactive');
@@ -65,10 +65,11 @@ function categoriesPage(params) {
 
     const [_, categoryData] = location.hash.split('=') // ['#category', 'id-name']  
     const [categoryId,categoryName] = categoryData.split('-') // ['#category', 'id-name']  
-    
-    headerCategoryTitle.innerHTML= categoryName;
+    const newName = decodeURI(categoryName)
+    headerCategoryTitle.innerHTML= newName;
 
-    getMoviesByCategory(categoryId,categoryName);
+    getMoviesByCategory(categoryId);
+    window.scrollTo(0, 0);
 }
 
 function movieDetailsPage(params) {
