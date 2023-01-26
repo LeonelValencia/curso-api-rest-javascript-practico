@@ -1,7 +1,10 @@
 # Proyecto Platzi Movies
 Es un proyecto con conexión a una API publica para consultar películas de TheMovieDB y mostrarlas en el frontend de manera dinámica, es una Single Page Application con hash navigation. La aplicación sólo está disponible para dispositivos Mobile.
-Mas detalles sobre la api: https://developers.themoviedb.org/3/getting-started/introduction
+Mas detalles sobre la API: https://developers.themoviedb.org/3/getting-started/introduction
 
+[![Platzi-Movies-Home-Page.png](https://i.postimg.cc/bJZw5GqP/Platzi-Movies-Home-Page.png)](https://postimg.cc/cgNWgLKk)
+[![Platzi-Movies-Detail-Movie.png](https://i.postimg.cc/RF2ZxM0H/Platzi-Movies-Detail-Movie.png)](https://postimg.cc/BLc0xfHS)
+[![Platzi-Movies-Movies-List.png](https://i.postimg.cc/rsWF8vdY/Platzi-Movies-Movies-List.png)](https://postimg.cc/Mf6853my)
 
 # Estado actual
 Proyecto actualmente en producción. Url del proyecto: https://leonelvalencia.github.io/curso-api-rest-javascript-practico/
