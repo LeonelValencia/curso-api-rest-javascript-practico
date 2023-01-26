@@ -5,9 +5,20 @@ trendingBtn.addEventListener('click', () => {
     location.hash = '#trends';
 })
 arrowBtn.addEventListener('click', () => {
-    location.hash = '#home';
+    // location.hash = '#home';
+    const stateLoad = window.history.state ? window.history.state.loadUrl : '';
+    if (stateLoad.includes('#')) {
+        window.location.hash = '';
+    } else {
+        window.history.back();
+    }
 })
 
+window.addEventListener('DOMContentLoaded', () => {
+    navigator();
+    // Agregando un estado de carga inical
+    window.history.pushState({ loadUrl: window.location.href }, null, '');
+},false,);
 window.addEventListener('DOMContentLoaded', navigator, false)
 window.addEventListener('hashchange', navigator, false)
 
