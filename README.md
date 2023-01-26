@@ -1,5 +1,7 @@
 # Proyecto Platzi Movies
-Se basa en mostrar una una interfaz que se comunique con una API pública para consultar películas y mostrarlas en el frontend de manera dinámica. La aplicación sólo está disponible para dispositivos Mobile y tablet hasta 600px de ancho.
+Es un proyecto con conexión a una API publica para consultar películas de TheMovieDB y mostrarlas en el frontend de manera dinámica, es una Single Page Application con hash navigation. La aplicación sólo está disponible para dispositivos Mobile.
+Mas detalles sobre la api: https://developers.themoviedb.org/3/getting-started/introduction
+
 
 # Estado actual
 Proyecto actualmente en producción. Url del proyecto: https://leonelvalencia.github.io/curso-api-rest-javascript-practico/
