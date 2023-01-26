@@ -2,7 +2,7 @@
 Se basa en mostrar una una interfaz que se comunique con una API pública para consultar películas y mostrarlas en el frontend de manera dinámica. La aplicación sólo está disponible para dispositivos Mobile y tablet hasta 600px de ancho.
 
 # Estado actual
-Proyecto actualmente producción. Url del proyecto: .
+Proyecto actualmente en producción. Url del proyecto: https://leonelvalencia.github.io/curso-api-rest-javascript-practico/
 
 # Maquetación del proyecto
 
