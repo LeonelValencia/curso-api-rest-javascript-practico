@@ -153,13 +153,14 @@ button {
   cursor: pointer;
   display: inline-block;
 
-  border-radius: 50px;
+  border-radius: 35px;
   background-color: var(--blue-light-2);
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   text-align: center;
+  line-height: 35px;
   position: fixed;
-  top: 25px;
+  top: 10px;
   background-blend-mode: multiply;
   opacity: 0.9;
   z-index: 1;
@@ -174,6 +175,7 @@ button {
   justify-content: center;
   width: 100%;
   flex-wrap: nowrap;
+  margin-top: 10px;
 }
 
 .header-searchForm input {
